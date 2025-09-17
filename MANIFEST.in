@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+recursive-include map_services *.py
+recursive-include tests *.py
+recursive-include examples *.py
+global-exclude *.pyc
+global-exclude __pycache__
